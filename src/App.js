@@ -1,6 +1,7 @@
 import React from "react";
 import { CssBaseline, Grid } from "@material-ui/core";
 import Header from "./components/Header/Header";
+import Map from "./components/Map/Map";
 
 const App = () => {
   return (
@@ -18,7 +19,9 @@ const App = () => {
             justifyContent: "center",
             alignItems: "center",
           }}
-        ></Grid>
+        >
+          <Map />
+        </Grid>
       </Grid>
     </>
   );
